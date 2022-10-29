@@ -12,7 +12,8 @@ header {
     color: antiquewhite;
 }
 nav li {
-    display: inline;
+    padding: 10px 10px;
+    list-style: none;
 }
 h2 {
     text-align: center;
@@ -22,12 +23,30 @@ h2 {
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
+    padding: 0px 50px;
 }
 p {
     font-size: large;
+
 }
 
 #sang {
    text-align: center;
    padding-block: 40px;
+}
+#nisselue {
+    padding: 20px 50px;
+    border-radius: 50%;
+}
+#welcome {
+    text-align: center;
+}
+#hei {
+    text-align: center;
+}
+h3{
+    padding-top: 50px;
+}
+.liste {
+    display: inline;
 }
